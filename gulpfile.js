@@ -79,7 +79,7 @@ function css() {
 function scripts() {
    return gulp
     .src("./src/**/*.js") 
-    .pipe(concat("all.js"))
+    .pipe(concat("script.js"))
     .pipe(gulp.dest("./views/js"))
     .pipe(browsersync.stream());
 }
@@ -95,7 +95,8 @@ function watchFiles() {
      "./src/**/*",
       "./src/**/*",
       "./src_css/**/*",
-     "./*.html"
+     "./*.html",
+     "./*.php"
     ],
      browserSyncReload);
 }
