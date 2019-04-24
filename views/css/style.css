@@ -31,16 +31,22 @@ input[type="radio"].visually-hidden {
 .footer-lower__links-group {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: flex-start;
+  max-width: 230px;
+  width: 100%;
 }
 
-.footer-lower__link, .footer-lower__copyright {
+.footer-lower__link:first-child {
   padding-right: 30px;
 }
 
 .footer {
   background-color: #313131;
   background-size: cover;
+}
+
+.footer-wrapper {
+  padding: 0 30px 0 30px;
 }
 
 .footer-lower-wrapper, .footer-upper-wrapper {
@@ -52,7 +58,7 @@ input[type="radio"].visually-hidden {
 }
 
 .footer-upper-wrapper {
-  padding: 20px 30px 20px 30px;
+  padding: 20px 0px 20px 0px;
 }
 
 .footer-lower-wrapper {
@@ -118,6 +124,7 @@ input[type="radio"].visually-hidden {
 
 .footer-lower__link:hover, .footer-upper__link:hover {
   color: #FFB321;
+  transition: 0.3s;
 }
 
 .footer-upper__menu-list, .footer-upper__social-list {
@@ -143,11 +150,9 @@ input[type="radio"].visually-hidden {
   content: "";
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 8px;
   width: 18px;
   height: 18px;
-  transform: translateY(-50%);
-  background-repeat: no-repeat;
 }
 
 .footer-upper__email-link:before {
@@ -170,6 +175,39 @@ input[type="radio"].visually-hidden {
   .footer-upper__header {
     margin-top: 40px;
   }
+}
+
+@media screen and (max-width: 576px) {
+  .footer-lower-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-lower__links-group {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-lower__copyright {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer-lower__links-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-lower__link:last-child {
+    padding-top: 30px;
+  }
+  .footer-lower__link:first-child {
+    padding-right: 0;
+  }
+}
+
+.footer-upper__facebook-icon {
+  background-color: transparent;
 }
 
 .header-mobile-menu__wrapper {
@@ -295,8 +333,13 @@ input[type="radio"].visually-hidden {
   transition: 0.3s;
 }
 
-.header-menu__menu-item a:hover, .header__button:hover, .header-mobile-menu__menu-item a:hover, .header-mobile-menu__close-button:hover {
+.header-menu__menu-item a:hover, .header-mobile-menu__menu-item a:hover, .header-mobile-menu__close-button:hover {
   color: #FFB321;
+}
+
+.header__button:hover {
+  border: 1px solid #B4EC51;
+  box-shadow: 0px 0px 12px rgba(126, 211, 33, 0.112687);
 }
 
 .button-transparent {
