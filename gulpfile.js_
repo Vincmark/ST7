@@ -80,7 +80,8 @@ function scripts() {
    return gulp
     .src("./src/**/*.js") 
     .pipe(concat("script.js"))
-    .pipe(gulp.dest("./views/js"));
+    .pipe(gulp.dest("./views/js"))
+    .pipe(browsersync.stream());
 }
 
 
@@ -96,18 +97,18 @@ function watchFiles() {
       "./src_css/**/*",
      "./*.html",
      "./*.php"
-    ]
-);
+    ],
+     browserSyncReload);
 }
 
 // define complex tasks
-//const watch = gulp.parallel(watchFiles, browserSync);
+const watch = gulp.parallel(watchFiles, browserSync);
 
 // export tasks
 exports.css = css;
 exports.scripts = scripts;
-exports.watch = watchFiles;
-exports.default = watchFiles;
+exports.watch = watch;
+exports.default = watch;
 exports.images = images;
 exports.clear = clearImg;
 exports.build = gulp.series(css, clearCss, scripts, images);
