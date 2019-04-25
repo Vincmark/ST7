@@ -7,18 +7,18 @@
                     <a href="/"><img class="footer-upper__logo" src="<?php echo $imgPath.'logo.svg'?>" alt="Search Team 7 logo" height="119" width="131"></a>
                     <ul class="footer-upper__social-list">
                         <li class="footer-upper__social-item">
-                            <a class="footer-upper__social-link" href="https://www.facebook.com/#" target="_blank">
-                                <img class="footer-upper__facebook-icon" src="<?php echo $imgPath.'facebook.png'?>" alt="Search Team 7 facebook link">
+                            <a class="footer-upper__social-link footer-upper__facebook-icon" href="https://www.facebook.com/#" target="_blank">
+<!--                                <img class="footer-upper__facebook-icon" src="--><?php //echo $imgPath.'facebook.png'?><!--" alt="Search Team 7 facebook link">-->
                             </a>
                         </li>
                         <li class="footer-upper__social-item">
-                            <a class="footer-upper__social-link" href="https://www.linkedin.com/company/#" target="_blank">
-                                <img class="footer-upper__linkedin-icon" src="<?php echo $imgPath.'linkedin.png'?>" alt="Search Team 7 linkedin link">
+                            <a class="footer-upper__social-link footer-upper__linkedin-icon" href="https://www.linkedin.com/company/#" target="_blank">
+<!--                                <img class="footer-upper__linkedin-icon" src="--><?php //echo $imgPath.'linkedin.png'?><!--" alt="Search Team 7 linkedin link">-->
                             </a>
                         </li>
                         <li class="footer-upper__social-item">
-                            <a class="footer-upper__social-link" href="https://www.behance.net/#" target="_blank">
-                                <img class="footer-upper__linkedin-icon" src="<?php echo $imgPath.'behance.png'?>" alt="Search Team 7 behance link">
+                            <a class="footer-upper__social-link footer-upper__behance-icon" href="https://www.behance.net/#" target="_blank">
+<!--                                <img class="footer-upper__behance-icon" src="--><?php //echo $imgPath.'behance.png'?><!--" alt="Search Team 7 behance link">-->
                             </a>
                         </li>
                     </ul>
