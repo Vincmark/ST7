@@ -2,7 +2,7 @@
     <div class="about-us_our-services_wrapper">
 
         <h2><span>Our</span> Services</h2>
-        <img src="our-services-image.svg" alt="Our Services image">
+        <img src="<?= $imgPath.'dm-landscape-image.svg'?>our-services-image.svg" alt="Our Services image">
         <div>
             <p><span>Our objective is to work with select business owners and grow with them by getting them get more customers.</span></p>
             <p>In order to get to know our clients we offer a complimentary 30 minute business and marketing consultation.</p>
