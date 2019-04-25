@@ -10,3 +10,4 @@ node_modules/
 npm-debug.*
 Thumbs.db
 temp/
+views/css/style.css
