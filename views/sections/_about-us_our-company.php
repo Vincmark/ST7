@@ -1,7 +1,7 @@
 <section class="about-us_our-company">
     <div class="about-us_our-company_wrapper">
         <h2><span>Our</span> Company</h2>
-        <img src="our-company-image.svg" alt="Our Company image">
+        <img src="<?= $imgPath.'our-company-image.svg'?>" alt="Our Company image">
         <div>
             <p><span>We are Search Team 7, a group of highly successful marketing specialists.</span></p>
             <p>For the past 20 years we have been making a very healthy living promoting products and services online. </p>
