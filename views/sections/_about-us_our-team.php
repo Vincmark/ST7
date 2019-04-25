@@ -3,7 +3,7 @@
         <h2><span>Our</span> Team</h2>
         <ul>
             <li>
-                <img src="our-team-photo1.jpg" alt="Steve Rudd photo">
+                <img src="../img/our-team-photo1.jpg" alt="Steve Rudd photo">
                 <p>Steve Rudd</p>
                 <p>Steve Rudd Head of Search Engine Marketing  - Steve is a true internet pioneer who started a web development and email marketing business in the late 90’s. When Google</p>
             </li>
