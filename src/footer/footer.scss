@@ -124,8 +124,7 @@
   top: 8px;
   width: 18px;
   height: 18px;
-  //transform: translateY(-50%);
-  //background-repeat: no-repeat;
+
 }
 
 .footer-upper__email-link:before {
@@ -178,7 +177,31 @@
     padding-right: 0;
   }
 }
-
+.footer-upper__social-link {
+  display: block;
+  width: 42px;
+  height: 44px;
+  transition: 0.3s;
+}
 .footer-upper__facebook-icon {
-  background-color: transparent;
+  background-image: url("../img/facebook.png");
+}
+.footer-upper__behance-icon {
+  background-image: url("../img/behance.png");
+}
+.footer-upper__linkedin-icon {
+  background-image: url("../img/linkedin.png");
+}
+
+
+.footer-upper__facebook-icon:hover {
+  background-image: url("../img/facebook-hover.png");
+}
+
+.footer-upper__behance-icon:hover {
+  background-image: url("../img/behance-hover.png");
+}
+
+.footer-upper__linkedin-icon:hover {
+  background-image: url("../img/linkedin-hover.png");
 }

@@ -1,6 +1,6 @@
  <section class="home_services">
     <div class="home_services_wrapper">
-        <h2 class="home_services__header">Services include</h2>
+        <h2 class="home_services__header"><span class="home_services__header-bold">Services</span> include</h2>
         <div class="home_serices_list-wrapper">
             <div class="home_services_col-1">
                 <img class="home_services__list-icon" src="<?php echo $imgPath.'puzzle.svg'?>" alt="Search team 7 services icon">

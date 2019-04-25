@@ -6,7 +6,34 @@
   padding: 0 30px 0 30px;
   margin: 0 auto;
   max-width: 1050px;
+  min-height: 840px;
+  height: auto;
 }
+.home_services__header {
+  margin-top: 187px;
+  margin-bottom: 37px;
+  font-family: Verdana, sans-serif ;
+  font-size: 36px;
+  line-height: normal;
+  text-align: center;
+  font-weight: 300;
+  color: #313131;
+}
+.home_services__header-bold {
+  font-weight: 700;
+}
+
+.home_services_list{
+  //list-style: none;
+  font-family: Roboto, sans-serif ;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: normal;
+
+  color: #313131;
+}
+
 
 .button-gradient {
   display: block;
@@ -47,6 +74,8 @@
 .home_services_col-1, .home_services_col-2, .home_services_col-3 {
   max-width: 90%;
   width: 345px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .home_services_col-1 {
   margin-right: 15px;
