@@ -32,6 +32,13 @@
 .ome_services_col-1_lower {
   padding: 15px;
 }
+
+.home_services__list-icon {
+  margin: 0 auto;
+}
+
+
+
 .home_services_list__header {
   display: block;
   font-family: Roboto, sans-serif ;
@@ -42,12 +49,18 @@
   text-align: center;
   color: #313131;
   margin-top: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 .home_services_list__item{
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+
+.home_services_list__item:first-child {
+  margin-top: 5px;
+}
+
 
 .home_services_list__item span{
   font-family: Roboto, sans-serif ;
@@ -62,7 +75,6 @@
   color: #B4EC51;
 
 }
-
 
 .button-gradient {
   display: block;
@@ -121,20 +133,20 @@
 
 .home_services_col-2 ul {
   margin-left: 35px;
-  margin-top:20px;
+  //margin-top: 5px;
 }
 
-.home_services_col-1 ul, .home_services_col-3 ul{
+.home_services_col-1_lower ul, .home_services_col-3_lower ul{
   margin-left: 20px;
-  margin-top:20px;
+  //margin-top: 5px;
 }
 
-.home_services_col-1_upper {
+.home_services_col-1_upper, .home_services_col-2_upper, .home_services_col-3_upper {
   margin: 0;
   border-bottom: 1px solid #F2F2F2;
   padding: 15px;
 }
 
-.ome_services_col-1_lower {
+.home_services_col-1_lower, .home_services_col-2_lower, .home_services_col-3_lower {
   padding: 15px;
 }

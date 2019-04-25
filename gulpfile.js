@@ -32,21 +32,7 @@ function images() {
   return gulp
     .src(["./src/**/*.jpg", "./src/**/*.png", "./src/**/*.svg"])
     .pipe(newer("./temp/img"))
-    .pipe(
-      imagemin([
-        imagemin.gifsicle({ interlaced: true }),
-        imagemin.jpegtran({ progressive: true }),
-        imagemin.optipng({ optimizationLevel: 5 }),
-        imagemin.svgo({
-          plugins: [
-            {
-              removeViewBox: false,
-              collapseGroups: true
-            }
-          ]
-        })
-      ])
-    )
+    
     .pipe(gulp.dest("./temp/img"))
     .pipe(flatten({ includeParents: 0 }))
     .pipe(gulp.dest('views/img'))
