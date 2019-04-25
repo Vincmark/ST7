@@ -4,7 +4,9 @@
         <div class="home_serices_list-wrapper">
             <div class="home_services_col-1">
                 <div class="home_services_col-1_upper">
-                    <img class="home_services__list-icon" src="<?php echo $imgPath.'digital-marketing.svg'?>" alt="Search team 7 services icon">
+                    <div class="home_services__list-icon">
+                        <img src="<?php echo $imgPath.'puzzle.svg'?>" alt="Search team 7 services icon">
+                    </div>
                     <h3 class="home_services_list__header">Creative</h3>
                 </div>
                 <div class="home_services_col-1_lower">
@@ -32,7 +34,9 @@
             </div>
             <div class="home_services_col-3">
                 <div class="home_services_col-3_upper">
-                    <img class="home_services__list-icon" src="<?php echo $imgPath.'web.svg'?>" alt="Search team 7 services icon">
+                    <div class="home_services__list-icon">
+                        <img src="<?php echo $imgPath.'web.svg'?>" alt="Search team 7 services icon">
+                    </div>
                     <h3 class="home_services_list__header">Development</h3>
                 </div>
                 <div class="home_services_col-3_lower">

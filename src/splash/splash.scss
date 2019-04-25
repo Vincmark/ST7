@@ -28,16 +28,21 @@
 .splash {
   background: #4b869f url("../img/splashbg.jpg") no-repeat center;
   background-size: cover;
-  min-height: 520px;
+
   //min-width: 320px;
-  height: auto;
+
   color: #ffffff;
+  z-index: 10;
 }
 
 .splash-wrapper {
   max-width: 1050px;
-  padding: 0 30px 15px;
+  min-height: 520px;
+  height: auto;
+  padding: 0 30px 0;
   margin: 0 auto;
+  z-index: 10;
+  position: relative;
 }
 
 .splash-content {
