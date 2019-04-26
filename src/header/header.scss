@@ -1,0 +1,26 @@
+h1{
+  margin:0;
+}
+.header_h1 {
+  margin: 15px 0 0 0;
+  padding-bottom: 30px;
+}
+.header_h1_wrapper {
+  max-width: 1050px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+.inner-header_about-us {
+  background: #313131 url("../img/about-us-bg1.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.inner-header_our-process {
+  background: #313131 url("../img/our-process-bg1.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.inner-header_services {
+  background: #313131 url("../img/services-bg1.jpg") no-repeat center;
+  background-size: cover;
+}

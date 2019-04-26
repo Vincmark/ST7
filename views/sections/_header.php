@@ -1,3 +1,4 @@
+<div class="header_wrapper">
 <header class="header">
     <?php if ($innerPage) :?>
         <a href="/"><img class="header__logo" src="<?= $imgPath.'logo.svg'?>" alt="Search team 7 logo" height="119" width="131"></a>
