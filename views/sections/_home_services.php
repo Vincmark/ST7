@@ -12,7 +12,7 @@
                 <div class="home_services_col-1_lower">
                     <ul class="home_services_list">
                         <li class="home_services_list__item"><span>Branding/logo design</span></li>
-                        <li class="home_services_list__item"><span>Conversion optimization and copywriting</span></li>
+                        <li class="home_services_list__item"><span>Conversion optimization</span></li>
                         <li class="home_services_list__item"><span>Marketing strategy</span></li>
                     </ul>
                 </div>
@@ -43,7 +43,7 @@
                     <ul class="home_services_list">
                         <li class="home_services_list__item"><span>Web design and development</span></li>
                         <li class="home_services_list__item"><span>Mobile design and development</span></li>
-                        <li class="home_services_list__item"><span>CRM set up and integrations and funnel set</span></li>
+                        <li class="home_services_list__item"><span>CRM and funnel setup</span></li>
                     </ul>
                 </div>
             </div>
