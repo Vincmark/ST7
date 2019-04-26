@@ -602,36 +602,6 @@ input[type="radio"].visually-hidden {
   background-image: url("../img/linkedin-hover.png");
 }
 
-h1 {
-  margin: 0;
-}
-
-.header_h1 {
-  margin: 15px 0 0 0;
-  padding-bottom: 30px;
-}
-
-.header_h1_wrapper {
-  max-width: 1050px;
-  padding: 0 30px;
-  margin: 0 auto;
-}
-
-.inner-header_about-us {
-  background: #313131 url("../img/about-us-bg1.jpg") no-repeat center;
-  background-size: cover;
-}
-
-.inner-header_our-process {
-  background: #313131 url("../img/our-process-bg1.jpg") no-repeat center;
-  background-size: cover;
-}
-
-.inner-header_services {
-  background: #313131 url("../img/services-bg1.jpg") no-repeat center;
-  background-size: cover;
-}
-
 .home_request-form_wrapper {
   background: #4b869f url("../img/Form-bg1920.jpg") no-repeat center;
   background-size: cover;
@@ -720,6 +690,36 @@ h1 {
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
   background: #B4EC51;
   cursor: pointer;
+}
+
+h1 {
+  margin: 0;
+}
+
+.header_h1 {
+  margin: 15px 0 0 0;
+  padding-bottom: 30px;
+}
+
+.header_h1_wrapper {
+  max-width: 1050px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.inner-header_about-us {
+  background: #313131 url("../img/about-us-bg1.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.inner-header_our-process {
+  background: #313131 url("../img/our-process-bg1.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.inner-header_services {
+  background: #313131 url("../img/services-bg1.jpg") no-repeat center;
+  background-size: cover;
 }
 
 .home_services {
@@ -878,6 +878,45 @@ h1 {
 }
 
 
+.our-process_why-build-website {
+  background-color: #ffffff;
+}
+
+.our-process_why-build-website_wrapper {
+  max-width: 1050px;
+  padding: 100px 30px;
+  margin: 0 auto;
+}
+
+.our-process_why_list {
+  list-style: none;
+}
+
+.our-process_things_list {
+  list-style: none;
+  display: flex;
+}
+
+.our-process_things_p {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #313131;
+}
+
+.our-process_process {
+  background: #313131 url("../img/our-process-bg2.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.our-process_process_wrapper {
+  max-width: 1050px;
+  padding: 100px 30px;
+  margin: 0 auto;
+}
 
 .header-mobile-menu__wrapper {
   display: none;
