@@ -1,4 +1,5 @@
 <?php
+$innerPage=false;
 include("templates/header.php");
 include("sections/_splash.php");
 include("sections/_home_request-form.php");

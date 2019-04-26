@@ -1,18 +1,22 @@
-<div class="header_wrapper">
-    <header class="header">
+<header class="header">
+    <?php if ($innerPage) :?>
+        <a href="/"><img class="header__logo" src="<?= $imgPath.'logo.svg'?>" alt="Search team 7 logo" height="119" width="131"></a>
+    <?php else :?>
         <img class="header__logo" src="<?= $imgPath.'logo.svg'?>" alt="Search team 7 logo" height="119" width="131">
-        <div class="header-nav-wrapper">
-            <nav class="header-menu__wrapper">
-                <ul class="header-menu">
-                    <li class="header-menu__menu-item"><a href="#">Home</a></li>
-                    <li class="header-menu__menu-item"><a href="#">About</a></li>
-                    <li class="header-menu__menu-item"><a href="#">Services</a></li>
-                    <li class="header-menu__menu-item"><a href="#">Portfolio</a></li>
-                    <li class="header-menu__menu-item"><a href="#">Our process</a></li>
-                    <li class="header-menu__menu-item"><a href="#">Blog</a></li>
-                </ul>
-            </nav>
-            <a class="header__button button-transparent" href="#id_contact-us">Contact</a>
+    <?php endif; ?>
+
+    <div class="header-nav-wrapper">
+        <nav class="header-menu__wrapper">
+            <ul class="header-menu">
+                <li class="header-menu__menu-item"><a href="#">Home</a></li>
+                <li class="header-menu__menu-item"><a href="#">About</a></li>
+                <li class="header-menu__menu-item"><a href="#">Services</a></li>
+                <li class="header-menu__menu-item"><a href="#">Portfolio</a></li>
+                <li class="header-menu__menu-item"><a href="#">Our process</a></li>
+                <li class="header-menu__menu-item"><a href="#">Blog</a></li>
+            </ul>
+        </nav>
+        <a class="header__button button-transparent" href="#id_contact-us">Contact</a>
 
         </div>
         <button class="header-menu-toggler" id="header-menu-toggler"></button>
