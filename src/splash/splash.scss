@@ -91,27 +91,6 @@
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
 }
 
-.button-transparent {
-  display: block;
-  background-color: transparent;
-  border: 1px solid #B4EC51;
-  border-radius: 24px;
-  box-shadow: 0px 0px 12px rgba(126, 211, 33, 0.112687);
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: normal;
-  text-align: center;
-  letter-spacing: 1px;
-  text-decoration: none;
-  color: #FFFFFF;
-  padding: 15px 45px;
-  margin: auto 0;
-  transition: 0.3s;
-}
-
-
 
 .header-menu-toggler:hover, .header-mobile-menu__close-button:hover{
   cursor: pointer;
