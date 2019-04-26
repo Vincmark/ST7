@@ -1,5 +1,10 @@
 <header class="header">
-    <img class="header__logo" src="<?= $imgPath.'logo.svg'?>" alt="Search team 7 logo" height="119" width="131">
+    <?php if ($innerPage) :?>
+        <a href="/"><img class="header__logo" src="<?= $imgPath.'logo.svg'?>" alt="Search team 7 logo" height="119" width="131"></a>
+    <?php else :?>
+        <img class="header__logo" src="<?= $imgPath.'logo.svg'?>" alt="Search team 7 logo" height="119" width="131">
+    <?php endif; ?>
+
     <div class="header-nav-wrapper">
         <nav class="header-menu__wrapper">
             <ul class="header-menu">

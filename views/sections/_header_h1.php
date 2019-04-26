@@ -1,0 +1,1 @@
+<h1 class="typo-h1"><?= $currentH1?></h1>

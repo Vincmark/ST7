@@ -4,7 +4,12 @@
             <div class="footer-upper-wrapper">
 
                 <div class="footer-upper__col1">
-                    <a href="/"><img class="footer-upper__logo" src="<?php echo $imgPath.'logo.svg'?>" alt="Search Team 7 logo" height="119" width="131"></a>
+                    <?php if ($innerPage) :?>
+                        <a href="/"><img class="footer-upper__logo" src="<?= $imgPath.'logo.svg'?>" alt="Search Team 7 logo" height="119" width="131"></a>
+                    <?php else :?>
+                        <img class="footer-upper__logo" src="<?= $imgPath.'logo.svg'?>" alt="Search Team 7 logo" height="119" width="131">
+                    <?php endif; ?>
+
                     <ul class="footer-upper__social-list">
                         <li class="footer-upper__social-item">
                             <a class="footer-upper__social-link footer-upper__facebook-icon" href="https://www.facebook.com/#" target="_blank">

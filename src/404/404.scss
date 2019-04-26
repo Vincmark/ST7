@@ -1,16 +1,18 @@
 .not-found-404 {
-  background-color: #313131;
+  background: #313131 url("../img/404-bg.jpg") no-repeat center;
+  background-size: cover;
 }
 .not-found-404_wrapper {
   max-width: 1050px;
-  padding: 100px 15px;
+  padding: 100px 30px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .not-found-404_img {
-
+  max-width: 489px;
+  width: 100%;
 }
 .not-found-404_h1 {
   font-family: Verdana, sans-serif;
@@ -21,6 +23,8 @@
   text-align: center;
 
   color: #B4EC51;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 .not-found-404_p {
   font-family: Roboto, sans-serif;
@@ -33,5 +37,5 @@
   color: #FFFFFF;
 }
 .not-found-404_button {
-
+  margin-top: 50px;
 }

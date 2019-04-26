@@ -1,4 +1,10 @@
 <section class="about-us_dm-landscape">
+    <div class="inner-header">
+    <?php
+    include ("_header.php");
+    include ("_header_h1.php");
+    ?>
+    </div>
     <div class="about-us_dm-landscape_wrapper">
         <h2 class="typo-h2 typo_dark-color"><span class="typo_h-bold">Digital Marketing</span> Landscape</h2>
         <div>
