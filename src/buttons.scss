@@ -1,0 +1,47 @@
+.button-gradient {
+  display: block;
+  background-color: transparent;
+  background: linear-gradient(270deg, #429321 0%, #B4EC51 100%);
+  box-shadow: 0px 10px 15px rgba(180, 236, 80, 0.3);
+  border-radius: 24.5px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 15px 45px;
+  transition: right 1.5s linear 0.1s;
+  min-width: 152px;
+  max-width: 240px;
+  box-sizing: border-box;
+}
+
+
+
+
+.button-transparent {
+  display: block;
+  background-color: transparent;
+  border: 1px solid #B4EC51;
+  border-radius: 24px;
+  box-shadow: 0px 0px 12px rgba(126, 211, 33, 0.112687);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: normal;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 15px 45px;
+  margin: auto 0;
+  transition: 0.3s;
+}
+
+
+
