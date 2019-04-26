@@ -20,14 +20,20 @@
   box-sizing: border-box;
 }
 
+.button-gradient:hover {
+  background: #B4EC51;
+}
 
+.button-gradient:active {
+  background: #B4EC51;
+}
 
 
 .button-transparent {
   display: block;
   background-color: transparent;
   border: 1px solid #B4EC51;
-  border-radius: 24px;
+  border-radius: 24.5px;
   box-shadow: 0px 0px 12px rgba(126, 211, 33, 0.112687);
   font-family: 'Roboto', sans-serif;
   font-style: normal;
@@ -44,4 +50,35 @@
 }
 
 
+.button-transparent:hover {
+  background: #B4EC51;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
 
+.button-transparent:active {
+  background: #B4EC51;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.home_request-form__input-button {
+  background-color: #313131;
+  font-size: 15px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 24.5px;
+  padding: 8px 45px;
+  border: 0;
+  outline: none;
+  transition: 0.3s;
+}
+
+.home_request-form__input-button:hover {
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+  background: #B4EC51;
+  cursor: pointer;
+}
+
+.home_request-form__input-button:active {
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+  background: #B4EC51;
+  cursor: pointer;
+}
