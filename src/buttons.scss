@@ -1,29 +1,34 @@
 .button-gradient {
   display: block;
-  background-color: transparent;
-  background: linear-gradient(270deg, #429321 0%, #B4EC51 100%);
-  box-shadow: 0px 10px 15px rgba(180, 236, 80, 0.3);
-  border-radius: 24.5px;
+
+  background: linear-gradient(90deg, #FFD230 0%, #FF9921 100%);
+  box-shadow: 0 10px 15px rgba(255, 245, 0, 0.3);
+  border-radius: 30px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
-  line-height: normal;
+  font-size: 18px;
+  line-height: 21px;
   text-align: center;
+
+  color: #313131;
+
   letter-spacing: 1px;
   text-decoration: none;
-  color: #FFFFFF;
-  padding: 15px 45px;
-  transition: right 1.5s linear 0.1s;
-  box-sizing: border-box;
+  padding: 18px 47px;
+  transition: right 1.5s linear 0.5s;
+  max-width: 320px;
+  margin: 0 auto;
 }
 
+
 .button-gradient:hover {
-  background: #B4EC51;
+  background: #FFD230;
+
 }
 
 .button-gradient:active {
-  background: #B4EC51;
+  background: #FFD230;
 }
 
 

@@ -1,5 +1,5 @@
 <section class="about-us_dm-landscape">
-    <div class="inner-header">
+    <div class="inner-header_about-us">
     <?php
     include ("_header.php");
     include ("_header_h1.php");
