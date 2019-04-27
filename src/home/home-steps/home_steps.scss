@@ -1,0 +1,64 @@
+.home_steps {
+  background: #313131 url("../img/home-steps-bg.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.home_steps_wrapper {
+  max-width: 1050px;
+  min-height: 544px;
+  height: auto;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.home_steps__header {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  text-align: center;
+
+}
+
+.home_steps_3-steps-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  padding-bottom: 50px;
+}
+
+.home_steps__step-description {
+  font-family: Verdana, sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.home_steps__step-number {
+  display: block;
+  font-family: Verdana, sans-serif;
+  font-size: 90px;
+  line-height: normal;
+  font-weight: 700;
+  color: #FFFFFF;
+  opacity: 0.4;
+  //position: absolute;
+
+  margin-top: -22px;
+  padding-right: 5px;
+}
+
+.home_steps_step-pic {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  //position: relative;
+}
+
+
+.home_steps_col-3, .home_steps_col-2, .home_steps_col-1 {
+  border: solid 1px red;  //temp
+  width: 350px;
+}
