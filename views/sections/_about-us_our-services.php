@@ -2,10 +2,12 @@
     <div class="about-us_our-services_wrapper">
 
         <h2 class="typo-h2 typo_white-color"><span class="typo_h-bold typo_green-color">Our</span> Services</h2>
-        <img src="<?= $imgPath.'our-services-image.svg'?>" alt="Our Services image">
-        <div>
-            <p class="typo-p typo_white-color"><span class="typo_p-bold">Our objective is to work with select business owners and grow with them by getting them get more customers.</span></p>
-            <p class="typo-p typo_white-color">In order to get to know our clients we offer a complimentary 30 minute business and marketing consultation.</p>
+        <div class="about-us_our-services_container">
+            <img class="about-us_our-services_img" src="<?= $imgPath.'our-services-image.svg'?>" alt="Our Services image">
+            <div class="about-us_our-services_text">
+                <p class="typo-p typo_white-color"><span class="typo_p-bold">Our objective is to work with select business owners and grow with them by getting them get more customers.</span></p>
+                <p class="typo-p typo_white-color">In order to get to know our clients we offer a complimentary 30 minute business and marketing consultation.</p>
+            </div>
         </div>
 
 

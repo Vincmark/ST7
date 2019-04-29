@@ -1,11 +1,14 @@
 <section class="services_technologies">
     <div class="services_technologies_wrapper">
         <h2 class="typo-h2 typo_white-color">Website and Mobile Application <span class="typo_h-bold typo_green-color">Design</span> and <span class="typo_h-bold typo_green-color">Development</span></h2>
-        <img src="<?= $imgPath.'services_technologies_gadget.svg'?>" alt="Gadget image">
-        <p class="typo-p typo_white-color typo_p-bold">Unlike most web development firms we will take the time to understand your business and marketing goals and create your site with them in mind.</p>
-        <p class="typo-p typo_white-color">We will then use traffic flow analytics to continuously optimize your site to get you the most customers.</p>
-        <p class="typo-p typo_white-color">All of our sites are web, mobile and tablet responsive and we can design and develop mobile apps.</p>
-
+        <div class="services_technologies_container">
+            <img class="services_technologies_img" src="<?= $imgPath.'services_technologies_gadget.svg'?>" alt="Gadget image">
+            <div class="services_technologies_text">
+                <p class="typo-p typo_white-color typo_p-bold">Unlike most web development firms we will take the time to understand your business and marketing goals and create your site with them in mind.</p>
+                <p class="typo-p typo_white-color">We will then use traffic flow analytics to continuously optimize your site to get you the most customers.</p>
+                <p class="typo-p typo_white-color">All of our sites are web, mobile and tablet responsive and we can design and develop mobile apps.</p>
+            </div>
+        </div>
         <h3 class="typo-h3 typo_white-color typo_green-color">Specialties Include:</h3>
         <div>
             <p class="services_technologies_division typo-p typo_white-color typo_p-bold">Development</p>

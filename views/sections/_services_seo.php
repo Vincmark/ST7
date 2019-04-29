@@ -29,12 +29,16 @@
 
 <section class="services_seo2">
     <div class="services_seo2_wrapper">
-        <img class="services_sem_img2" src="<?= $imgPath.'services_seo_img1.svg'?>" alt="Image SEO">
-        <p class="typo-p">This doesn't mean that you should not try to get organic traffic. <span class="typo_p-bold">You just have to go about in a special way.</span></p>
-        <p class="typo-p">Particularly <span class="typo_p-bold">you need a content strategy</span> consisting of on site and off site content.</p>
-        <p class="typo-p">Get good quality articles on popular high traffic sites with <span class="typo_p-bold">links back to your site</span> and you will <span class="typo_p-bold">get targeted organic traffic.</span></p>
-        <p class="typo-p">We are very selective of who <span class="typo_p-bold">we work with on SEO</span> because content is so key. <span class="typo_p-bold">But the good news is we have a lot of experience generating revenue from organic traffic.</span></p>
-        <a class="button-gradient">Set up a Free Consultation</a>
+        <div class="services_seo2_container">
+            <img class="services_seo2_img" src="<?= $imgPath.'services_seo_img1.svg'?>" alt="Image SEO">
+            <div class="services_seo2_text">
+                <p class="typo-p">This doesn't mean that you should not try to get organic traffic. <span class="typo_p-bold">You just have to go about in a special way.</span></p>
+                <p class="typo-p">Particularly <span class="typo_p-bold">you need a content strategy</span> consisting of on site and off site content.</p>
+                <p class="typo-p">Get good quality articles on popular high traffic sites with <span class="typo_p-bold">links back to your site</span> and you will <span class="typo_p-bold">get targeted organic traffic.</span></p>
+                <p class="typo-p">We are very selective of who <span class="typo_p-bold">we work with on SEO</span> because content is so key. <span class="typo_p-bold">But the good news is we have a lot of experience generating revenue from organic traffic.</span></p>
+            </div>
+        </div>
+                <a class="button-gradient">Set up a Free Consultation</a>
         <p class="button_lower-text typo_dark-color">to see if we can get you organic traffic and convert it to revenue for your business.</p>
     </div>
 </section>
