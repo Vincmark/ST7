@@ -1,5 +1,13 @@
 <?php
 $currentH1="Services";
 include("templates/header.php");
+include("sections/_services_description.php");
+include("sections/_services_technologies.php");
+include("sections/_services_conversion.php");
+include("sections/_services_sales-funnel.php");
+include("sections/_services_sem.php");
+include("sections/_services_seo.php");
+include("sections/_services_smm.php");
+include("sections/_services_design.php");
 include("sections/_footer.php");
 include("templates/footer.php");

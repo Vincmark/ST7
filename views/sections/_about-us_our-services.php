@@ -2,16 +2,30 @@
     <div class="about-us_our-services_wrapper">
 
         <h2 class="typo-h2 typo_white-color"><span class="typo_h-bold typo_green-color">Our</span> Services</h2>
-        <img src="<?= $imgPath.'our-services-image.svg'?>" alt="Our Services image">
-        <div>
-            <p class="typo-p typo_white-color"><span class="typo_p-bold">Our objective is to work with select business owners and grow with them by getting them get more customers.</span></p>
-            <p class="typo-p typo_white-color">In order to get to know our clients we offer a complimentary 30 minute business and marketing consultation.</p>
+        <div class="about-us_our-services_container">
+            <img class="about-us_our-services_img" src="<?= $imgPath.'our-services-image.svg'?>" alt="Our Services image">
+            <div class="about-us_our-services_text">
+                <p class="typo-p typo_white-color"><span class="typo_p-bold">Our objective is to work with select business owners and grow with them by getting them get more customers.</span></p>
+                <p class="typo-p typo_white-color">In order to get to know our clients we offer a complimentary 30 minute business and marketing consultation.</p>
+            </div>
         </div>
 
 
         <h3 class="typo-h3 typo_dark-color typo_green-color">During this consultation we will determine 2 things:</h3>
-        <p class="about-us_our-services_2-things">Does it make sense for us to work together?  Because we want our clients to truly succeed we must provide them with very high quality work. Therefore we are very selective in the clients that we take on.</p>
-        <p class="about-us_our-services_2-things">If we do decide to work together we will determine how we can help you. Here are some examples: </p>
+        <div class="about-us_our-services_tt_container">
+            <img class="about-us_our-services_tt_img" src="<?= $imgPath.'about-us_our-services_1.svg'?>" alt="Our Services image" width="45" height="66">
+            <div class="about-us_our-services_tt_text">
+                <p class="typo-p typo_white-color"><span class="typo_p-bold">Does it make sense for us to work together?</span></p>
+                <p class="typo-ps typo_white-color">Because we want our clients to truly succeed we must provide them with very high quality work. Therefore we are very selective in the clients that we take on.</p>
+            </div>
+        </div>
+        <div class="services_line-separator padding-bottom-30"></div>
+        <div class="about-us_our-services_tt_container">
+            <img class="about-us_our-services_tt_img" src="<?= $imgPath.'about-us_our-services_2.svg'?>" alt="Our Services image" width="52" height="67">
+            <div class="about-us_our-services_tt_text">
+                <p class="typo-p typo_white-color">If we do decide to work together we will determine how we can help you. Here are some examples: </p>
+            </div>
+        </div>
 
         <ul class="about-us_our-services_services-list">
             <li class="about-us_our-services_services-item"><span class="about-us_our-services_services-item-bullet">a.</span> We can design and develop your website and/or mobile application. </li>

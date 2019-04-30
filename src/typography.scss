@@ -6,6 +6,7 @@
   font-weight: 500;
   color: #E7E7E7;
   text-shadow: 0 40px 40px rgba(26, 11, 52, 0.5);
+
 }
 
 .typo-h2 {
@@ -14,7 +15,7 @@
   font-weight: 500;
   line-height: normal;
   text-align: center;
-
+  padding-bottom: 50px;
 }
 
 .typo-h3{
@@ -23,6 +24,8 @@
   font-weight: normal;
   line-height: normal;
   text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .typo-p {
@@ -31,6 +34,16 @@
   font-weight: 300;
   font-size: 18px;
   line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.typo-ps {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  padding-bottom: 20px;
 }
 
 .typo_p-bold{
@@ -51,4 +64,8 @@
 
 .typo_green-color{
   color: #B4EC51;
+}
+
+.typo_orange-color{
+  color: #FFB321;
 }
