@@ -188,7 +188,7 @@
   color: #313131;
   padding-left: 30px;
   padding-right: 30px;
-  padding-bottom: 15px;
+  padding-bottom: 30px;
 }
 
 .about-us_our-team_team-list {
@@ -254,7 +254,6 @@
 .about-us_our-services {
   background: #313131 url("../img/about-us-bg3.jpg") no-repeat center;
   background-size: cover;
-
 }
 
 .about-us_our-services_wrapper {
@@ -277,7 +276,6 @@
   max-width: 510px;
   width: 100%;
   padding-right: 100px;
-
 }
 
 @media screen and (max-width: 1050px) {
@@ -311,7 +309,6 @@
   max-width: 510px;
   width: 100%;
   padding-left: 30px;
-
 }
 
 @media screen and (max-width: 400px) {
@@ -332,25 +329,23 @@
 }
 
 .about-us_our-services_services-list {
-  list-style: none;
   padding-top: 30px;
   padding-bottom: 30px;
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-us_our-services_services-list_col {
+  display: flex;
   flex-direction: column;
+  padding: 0 30px;
 }
-
-.about-us_our-services_services-item {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 15px;
-  line-height: 25px;
-  color: #FFFFFF;
-  padding-bottom: 20px;
-  max-width: 360px;
+.about-us_our-services_services-item_line{
+  display: flex;
+  justify-content: start;
 }
-
-.about-us_our-services_services-item-bullet {
+.about-us_our-services_services-p-bullet {
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -359,6 +354,28 @@
   color: #B4EC51;
   padding-right: 16px;
 }
+
+.about-us_our-services_services-p {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+  max-width: 330px;
+  min-height: 50px;
+}
+@media screen and (max-width: 800px) {
+  .about-us_our-services_services-list {
+    flex-direction: column;
+  }
+  .about-us_our-services_services-p {
+    min-height: auto;
+  }
+}
+
+
 
 .about-us_our-services_last-word {
   font-family: Roboto, sans-serif;

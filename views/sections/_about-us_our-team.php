@@ -5,12 +5,12 @@
             <li class="about-us_our-team_head-team-item">
                 <img class="about-us_our-team_head-team-photo" src="<?= $imgPath.'our-team-photo1.png'?>" alt="Steve Rudd photo">
                 <p class="about-us_our-team_head-team-h">Steve Rudd</p>
-                <p class="about-us_our-team_head-team-p">Steve Rudd Head of Search Engine Marketing  - Steve is a true internet pioneer who started a web development and email marketing business in the late 90’s. When Google</p>
+                <p class="about-us_our-team_head-team-p">Is a true internet pioneer who started a web development and email marketing business in the late 90’s. When Google Advertising became available, Steve jumped in with both feet and  became one of the biggest affiliate marketers in the dating industry. Steve currently makes six figures per month as a dating industry affiliate and has time to focus on other ventures such as Search Team 7.</p>
             </li>
             <li class="about-us_our-team_head-team-item">
                 <img class="about-us_our-team_head-team-photo" src="<?= $imgPath.'our-team-photo3.png'?>" alt="Alex Nekritin photo">
                 <p class="about-us_our-team_head-team-h">Alex Nekritin</p>
-                <p class="about-us_our-team_head-team-p">Alex Head of Marketing Strategy and Development - Alex started internet marketing in the early 2002 by buying cars at auctions and selling them online. Shortly after that he</p>
+                <p class="about-us_our-team_head-team-p">Started internet marketing in the early 2002 by buying cars at auctions and selling them online. Shortly after that he saw a massive opportunity in the commodity and Forex brokerage industry. Alex used search engine optimization (SEO), pay per click advertising (PPC), and social media marketing (SMM) in order to drive clients to Forex brokers in exchange for Affiliate compensation. Alex’s company TradersChoiceFX has generated over $20 million in revenue since 2004 and was one of top affiliates in the trading industry. Alex recently sold TradersChoice and is focusing on Search Team 7 and other lucrative projects.</p>
             </li>
         </ul>
         <h3 class="typo-h3 typo_dark-color">Our team also consists of</h3>
