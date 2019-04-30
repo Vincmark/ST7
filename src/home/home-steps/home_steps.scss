@@ -59,6 +59,14 @@
 
 
 .home_steps_col-3, .home_steps_col-2, .home_steps_col-1 {
-  border: solid 1px red;  //temp
+
   width: 350px;
+}
+
+@media screen and (max-width: 1110px) {
+  .home_steps_3-steps-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
