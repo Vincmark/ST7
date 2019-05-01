@@ -5,7 +5,6 @@
 }
 .home_request-form {
   max-width: 1050px;
-  min-height: 220px;
   height: auto;
   margin: 0 auto;
   padding: 0 30px;
@@ -13,7 +12,8 @@
 
 .home_request-form__description {
   text-align: center;
-  padding-top: 28px;
+  padding-top: 30px;
+  padding-bottom: 15px!important;
 }
 
 .home_request-form__header {
@@ -22,7 +22,7 @@
   line-height: normal;
   text-align: center;
   font-weight: 700;
-  padding-top: 14px;
+  padding-top: 15px;
 }
 
 .home_request-form__input-name, .home_request-form__input-email {
@@ -42,7 +42,8 @@
 }
 
 .home_request-form_input-group {
-  padding-top: 26px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
   justify-content: center;
   max-width: 1050px;
@@ -106,6 +107,6 @@
   }
   .home_request-form__input-button {
     margin-top: 20px;
-    margin-bottom: 30px;
+    //margin-bottom: 30px;
   }
 }
