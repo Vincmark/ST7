@@ -44,10 +44,22 @@
 
   }
 }
-
+.services_technologies_division_container {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.services_technologies_division_container_no-top-padding {
+  padding-top: 0;
+}
+.services_technologies_division_container_bottom-padding {
+  padding-bottom: 20px;
+}
 .services_technologies_division {
   position: relative;
   padding-left: 23px;
+  width: 150px;
+  padding-bottom: 40px;
 }
 
 .services_technologies_division::before {
@@ -55,9 +67,8 @@
   position: absolute;
   height: 7px;
   width: 7px;
-  top: 50%;
+  top: 10px;
   left: 0;
-  transform: translateY(-50%);
   background: #B4EC51;
   box-shadow: 0 10px 15px rgba(180, 236, 80, 0.3);
   border-radius: 24.5px;
@@ -65,10 +76,15 @@
 .services_technologies_list {
   list-style: none                      ;
   display: flex;
-
+  flex-wrap: wrap;
+  width: 840px;
 }
 .services_technologies_item {
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 10px 30px 10px;
+  width: 100px;
 }
 .services_technologies_item_img {
 
@@ -82,5 +98,23 @@
   text-align: center;
 
   color: #FFB321;
+  padding-top: 20px;
 }
+
+@media screen and (max-width: 550px) {
+  .services_technologies_division_container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .services_technologies_list {
+    width: 100%;
+    justify-content: center;
+  }
+  .services_technologies_division{
+    width: auto;
+    //margin: 0 auto;
+  }
+}
+
 
