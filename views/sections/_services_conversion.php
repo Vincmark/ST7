@@ -1,19 +1,25 @@
 <section class="services_conversion">
     <div class="services_conversion_wrapper">
         <h2 class="typo-h2"><span class="typo_h-bold">Conversion</span> Optimization and <span class="typo_h-bold">Copywriting</span></h2>
-        <h3 class="typo-h3">Your <span class="typo_h-bold">website needs</span> to:</h3>
+        <h3 class="typo-h3 header3-no50">Your <span class="typo_h-bold">website needs</span> to:</h3>
         <ul class="services_conversion_list">
             <li class="services_conversion_item">
-                <img class="services_conversion_item_img" src="<?= $imgPath.'services_conversion_1.svg'?>" alt="1">
-                <p class="services_conversion_item_text">Quickly tell your prospects what you do</p>
+                <div class="services_conversion_item_container">
+                    <img class="services_conversion_item_img" src="<?= $imgPath.'services_conversion_1.svg'?>" alt="1">
+                    <p class="services_conversion_item_text typo-ps">Quickly tell your prospects what you do</p>
+                </div>
             </li>
             <li class="services_conversion_item">
-                <img class="services_conversion_item_img" src="<?= $imgPath.'services_conversion_2.svg'?>" alt="2">
-                <p class="services_conversion_item_text">Capture their contact information</p>
+                <div class="services_conversion_item_container">
+                    <img class="services_conversion_item_img" src="<?= $imgPath.'services_conversion_2.svg'?>" alt="2">
+                    <p class="services_conversion_item_text typo-ps">Capture their contact information</p>
+                </div>
             </li>
             <li class="services_conversion_item">
-                <img class="services_conversion_item_img" src="<?= $imgPath.'services_conversion_3.svg'?>" alt="3">
-                <p class="services_conversion_item_text">Convert them to paying customers</p>
+                <div class="services_conversion_item_container">
+                    <img class="services_conversion_item_img" src="<?= $imgPath.'services_conversion_3.svg'?>" alt="3">
+                    <p class="services_conversion_item_text typo-ps">Convert them to paying customers</p>
+                </div>
             </li>
         </ul>
         <div class="services_conversion_container">

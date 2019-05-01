@@ -9,21 +9,33 @@
 .services_conversion_list {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .services_conversion_item {
 
+}
+.services_conversion_item_container {
+  width: 205px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 30px;
 }
 .services_conversion_item_img {
 
 }
 .services_conversion_item_text {
-
+  padding: 20px 15px;
+  text-align: center;
 }
 
 .services_conversion_container {
   display: flex;
   justify-content: center;
   padding-bottom: 30px;
+  padding-top: 30px ;
 }
 
 .services_conversion_img {
@@ -34,7 +46,6 @@
   max-width: 510px;
   width: 100%;
   padding-left: 100px;
-
 }
 
 @media screen and (max-width: 1050px) {
@@ -54,4 +65,8 @@
   .services_conversion_img {
     padding-bottom: 30px;
   }
+}
+
+.header3-no50 {
+  padding-top: 0;
 }

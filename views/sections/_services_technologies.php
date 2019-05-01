@@ -10,7 +10,7 @@
             </div>
         </div>
         <h3 class="typo-h3 typo_white-color typo_green-color">Specialties Include:</h3>
-        <div>
+        <div class="services_technologies_division_container services_technologies_division_container_no-top-padding">
             <p class="services_technologies_division typo-p typo_white-color typo_p-bold">Development</p>
             <ul class="services_technologies_list">
                 <li class="services_technologies_item">
@@ -72,7 +72,7 @@
             </ul>
         </div>
         <div class="services_line-separator"></div>
-        <div>
+        <div class="services_technologies_division_container">
             <p class="services_technologies_division typo-p typo_white-color typo_p-bold">Design</p>
             <ul class="services_technologies_list">
                 <li class="services_technologies_item">
@@ -102,7 +102,7 @@
             </ul>
         </div>
         <div class="services_line-separator"></div>
-        <div>
+        <div class="services_technologies_division_container services_technologies_division_container_bottom-padding">
             <p class="services_technologies_division typo-p typo_white-color typo_p-bold">Other Tech</p>
             <ul class="services_technologies_list">
                 <li class="services_technologies_item">
