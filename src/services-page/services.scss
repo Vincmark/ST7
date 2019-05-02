@@ -1,10 +1,14 @@
 .services_description {
   background-color: #ffffff;
+
 }
 .services_description_wrapper {
   max-width: 1050px;
   padding: 100px 30px;
   margin: 0 auto;
+  background-image: url(../img/services_description_handshake.svg);
+  background-repeat: no-repeat;
+  background-position: top right;
 }
 .services_description_text {
   font-family: Roboto, sans-serif;
