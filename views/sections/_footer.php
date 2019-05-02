@@ -37,7 +37,7 @@
                         <li class="footer-upper__menu-item"><a class="footer-upper__link" href="#">Portfolio</a></li>
                     </ul>
                     <ul class="footer-upper__right-menu-list">
-                        <li class="footer-upper__menu-item"><a class="footer-upper__link" href="#">Or process</a></li>
+                        <li class="footer-upper__menu-item"><a class="footer-upper__link" href="#">Our process</a></li>
                         <li class="footer-upper__menu-item"><a class="footer-upper__link" href="#">Blog</a></li>
                         <li class="footer-upper__menu-item"><a class="footer-upper__link" href="#">Careers</a></li>
                     </ul>
