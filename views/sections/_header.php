@@ -17,7 +17,7 @@
                 <li class="header-menu__menu-item"><a href="#">Blog</a></li>
             </ul>
         </nav>
-        <a class="header__button button-transparent" href="#id_contact-us">Contact</a>
+        <a class="header__button button-transparent" href="#home_request-form">Contact</a>
 
         </div>
         <button class="header-menu-toggler" id="header-menu-toggler"></button>

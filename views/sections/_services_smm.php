@@ -9,7 +9,7 @@
             <p class="typo-p typo_white-color">If you want to get social media traffic organically we can work with you to create a <span class="typo_p-bold">content strategy that will get eyeballs on your offering and eventually get you more clients.</span></p>
             <p class="typo-p typo_white-color">It’s not as easy as simply putting up content. <span class="typo_p-bold">There are insider secrets that will make your content really work for you.</span> Things like the best times to post, what hashtags to use, how to organize your contacts and followers, what your profile should look like, what headlines to use and a lot more.</p>
         </div>
-        <a class="button-gradient">Set up a FREE Social Media Consultation</a>
+        <a class="button-gradient services_button" href="#services_request-form_wrapper">Set up a FREE Social Media Consultation</a>
         <p class="button_lower-text">to see if we can help</p>
     </div>
 </section>

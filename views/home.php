@@ -1,5 +1,7 @@
 <?php
 $innerPage=false;
+$formClass = "home_request-form_wrapper";
+$formId = "home_request-form_wrapper";
 include("templates/header.php");
 include("sections/_splash.php");
 include("sections/_home_request-form.php");
