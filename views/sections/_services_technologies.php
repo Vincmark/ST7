@@ -1,4 +1,4 @@
-<section class="services_technologies">
+<section class="services_technologies" id="services_technologies">
     <div class="services_technologies_wrapper">
         <h2 class="typo-h2 typo_white-color">Website and Mobile Application <span class="typo_h-bold typo_green-color">Design</span> and <span class="typo_h-bold typo_green-color">Development</span></h2>
         <div class="services_technologies_container">

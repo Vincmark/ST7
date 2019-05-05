@@ -1,4 +1,4 @@
-<section class="services_design">
+<section class="services_design" id="services_design">
     <div class="services_design_wrapper">
         <h2 class="typo-h2"><span class="typo_h-bold">Design</span> and <span class="typo_h-bold">Branding</span></h2>
         <div class="services_design_container">

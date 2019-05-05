@@ -67,14 +67,20 @@
   padding-bottom: 0;
 }
 
-.home_services_list__item span{
+.home_services_list__item a{
   font-family: Roboto, sans-serif ;
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: normal;
   color: #313131;
+  text-decoration: none;
+  border-bottom: 1px solid #FFB321;
 }
+.home_services_list__item a:hover {
+  color: #FFB321;
+}
+
 .home_services_list{
   color: #B4EC51;
 

@@ -1,4 +1,4 @@
-<section class="services_sem">
+<section class="services_sem" id="services_sem">
     <div class="services_sem_wrapper">
         <h2 class="typo-h2 ">Search Engine Marketing <span class="typo_h-bold">(SEM/PPC)</span></h2>
         <div class="services_sem_container1">

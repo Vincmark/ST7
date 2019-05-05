@@ -1,4 +1,4 @@
-<section class="services_seo1">
+<section class="services_seo1" id="services_seo">
     <div class="services_seo1_wrapper">
         <h2 class="typo-h2 typo_white-color">Search Engine Optimization <span class="typo_h-bold typo_green-color">SEO</span></h2>
         <div class="services_seo1_text-block">

@@ -1,4 +1,4 @@
-<section class="services_smm">
+<section class="services_smm" id="services_smm">
     <div class="services_smm_wrapper">
         <h2 class="typo-h2 typo_white-color">Social Media Marketing <span class="typo_h-bold typo_green-color">(SMM)</span></h2>
         <div class="services_smm_text">

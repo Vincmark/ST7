@@ -1,4 +1,4 @@
-<section class="services_sales-funnel">
+<section class="services_sales-funnel" id="services_sales-funnel">
     <div class="services_sales-funnel_wrapper">
         <h2 class="typo-h2 typo_white-color">Sales Funnel <span class="typo_h-bold typo_green-color">Creation</span> and <span class="typo_h-bold typo_green-color">Optimization</span></h2>
         <div class="services_sales-funnel_container1">

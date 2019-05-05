@@ -11,9 +11,9 @@
                 </div>
                 <div class="home_services_col-1_lower">
                     <ul class="home_services_list">
-                        <li class="home_services_list__item"><span>Branding/logo design</span></li>
-                        <li class="home_services_list__item"><span>Conversion optimization</span></li>
-                        <li class="home_services_list__item"><span>Marketing strategy</span></li>
+                        <li class="home_services_list__item"><a href="services/#services_design">Branding/logo design</a></li>
+                        <li class="home_services_list__item"><a href="services/#services_conversion">Conversion optimization</a></li>
+                        <li class="home_services_list__item"><a href="services">Marketing strategy</a></li>
                     </ul>
                 </div>
             </div>
@@ -26,9 +26,9 @@
                 </div>
                 <div class="home_services_col-2_lower">
                     <ul class="home_services_list">
-                        <li class="home_services_list__item"><span>Search Engine Marketing (PPC)</span></li>
-                        <li class="home_services_list__item"><span>Search Engine Optimization (SEO)</span></li>
-                        <li class="home_services_list__item"><span>Social Media marketing (SMM)</span></li>
+                        <li class="home_services_list__item"><a href="services/#services_sem">Search Engine Marketing (PPC)</a></li>
+                        <li class="home_services_list__item"><a href="services/#services_seo">Search Engine Optimization (SEO)</a></li>
+                        <li class="home_services_list__item"><a href="services/#services_smm">Social Media marketing (SMM)</a></li>
                     </ul>
                 </div>
             </div>
@@ -41,9 +41,9 @@
                 </div>
                 <div class="home_services_col-3_lower">
                     <ul class="home_services_list">
-                        <li class="home_services_list__item"><span>Web design and development</span></li>
-                        <li class="home_services_list__item"><span>Mobile design and development</span></li>
-                        <li class="home_services_list__item"><span>CRM and funnel setup</span></li>
+                        <li class="home_services_list__item"><a href="services/#services_technologies">Web design and development</a></li>
+                        <li class="home_services_list__item"><a href="services/#services_technologies">Mobile design and development</a></li>
+                        <li class="home_services_list__item"><a href="services/#services_sales-funnel">CRM and funnel setup</a></li>
                     </ul>
                 </div>
             </div>
