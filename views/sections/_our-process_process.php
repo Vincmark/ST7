@@ -49,7 +49,7 @@
                 </div>
             </div>
         </div>
-        <a class="button-gradient">Here is a Breakdown</a>
+        <a class="button-solid">Here is a Breakdown</a>
         <p class="button_lower-text">of the services we provide</p>
     </div>
 </section>

@@ -124,7 +124,7 @@
             </ul>
         </div>
         <p class="button_upper-text">Ready to build your website?</p>
-        <a class="button-gradient services_button"  href="#services_request-form_wrapper">Schedule a Free Consultation</a>
+        <a class="button-solid services_button"  href="#services_request-form_wrapper">Schedule a Free Consultation</a>
 <!--        <p class="button_lower-text">call to see if we can help</p>-->
     </div>
 </section>

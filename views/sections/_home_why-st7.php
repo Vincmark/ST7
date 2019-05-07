@@ -11,7 +11,7 @@
                 <img src="<?php echo $imgPath.'growth.svg'?>">
             </div>
         </div>
-        <a class="home_why-st7__button button-gradient" href="#">Learn More About Us</a>
+        <a class="home_why-st7__button button-solid" href="#">Learn More About Us</a>
     </div>
 
 </section>

@@ -21,7 +21,7 @@
             </div>
         </div>
 
-        <a class="button-gradient services_button"  href="#services_request-form_wrapper">Schedule a Free PPC Consultation</a>
+        <a class="button-solid services_button"  href="#services_request-form_wrapper">Schedule a Free PPC Consultation</a>
 <!--        <p class="button_lower-text typo_dark-color">to take your business to the next level</p>-->
     </div>
 </section>

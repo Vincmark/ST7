@@ -62,7 +62,7 @@
                 <p class="typo-p">We are very selective of who <span class="typo_p-bold">we work with on SEO</span> because content is so key. <span class="typo_p-bold">But the good news is we have a lot of experience generating revenue from organic traffic.</span></p>
             </div>
         </div>
-                <a class="button-gradient services_button"  href="#services_request-form_wrapper">Set up a Free Consultation</a>
+                <a class="button-solid services_button"  href="#services_request-form_wrapper">Set up a Free Consultation</a>
         <p class="button_lower-text typo_dark-color">to see if we can get you organic traffic and convert it to revenue for your business.</p>
     </div>
 </section>
