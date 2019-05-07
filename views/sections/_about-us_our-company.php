@@ -16,7 +16,8 @@
             <li class="about-us_our-company_managing-partners-item typo_white-color">Have launched grown and sold multi million dollar companies online</li>
             <li class="about-us_our-company_managing-partners-item typo_white-color">Are still making 6 figures per month from affiliate marketing</li>
             <li class="about-us_our-company_managing-partners-item typo_white-color">Are ranked top affiliates in some of the most competitive industries in the world</li>
-            <li class="about-us_our-company_managing-partners-item typo_white-color">Most importantly have a deep level of business acumen and can truly be a strategic partner for you and your firm.</li>
+<!--            <li class="about-us_our-company_managing-partners-item typo_white-color">Most importantly have a deep level of business acumen and can truly be a strategic partner for you and your firm.</li>-->
         </ul>
+        <p class="about-us_our-company_managing-partners-item-last typo_white-color">Most importantly have a deep level of business acumen and can truly be a strategic partner for you and your firm.</p>
     </div>
 </section>

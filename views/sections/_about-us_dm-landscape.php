@@ -2,7 +2,7 @@
     <div class="inner-header_about-us">
     <?php
     include ("_header.php");
-    include ("_header_h1.php");
+//    include ("_header_h1.php");
     ?>
     </div>
     <div class="about-us_dm-landscape_wrapper">

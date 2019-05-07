@@ -13,6 +13,6 @@
 
         <p class="button_upper-text typo_orange-color">If you need branding or logo design we can help.</p>
         <a class="button-gradient services_button" href="#services_request-form_wrapper">Set up a Free Consultation</a>
-        <p class="button_lower-text typo_dark-color">to find out how</p>
+<!--        <p class="button_lower-text typo_dark-color">to find out how</p>-->
     </div>
 </section>
