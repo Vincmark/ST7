@@ -1,6 +1,6 @@
 <section class="services_seo1" id="services_seo">
     <div class="services_seo1_wrapper">
-        <h2 class="typo-h2 typo_white-color">Search Engine Optimization <span class="typo_h-bold typo_green-color">SEO</span></h2>
+        <h2 class="typo-h2 typo_white-color">Search Engine Optimization <span class="typo_h-bold typo_green-color">(SEO)</span></h2>
         <div class="services_seo1_text-block">
             <h3 class="services_seo1_green-text">Doesn’t the idea of FREE traffic sound great???</h3>
             <p class="services_seo1_white-text">Many Digital marketing companies like sell you on this dream and take a monthly fee from you for “SEO”.</p>

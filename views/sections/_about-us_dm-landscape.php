@@ -8,7 +8,7 @@
     <div class="about-us_dm-landscape_wrapper">
         <h2 class="typo-h2 typo_dark-color"><span class="typo_h-bold">Digital Marketing</span> Landscape</h2>
         <div class="about-us_dm-landscape_container">
-            <img class="about-us_dm-landscape_img" src="<?= $imgPath.'dm-landscape-image.svg'?>" alt="Digital Marketing Landscape image">
+            <img class="about-us_dm-landscape_img" src="<?= $imgPath.'planet-earth.svg'?>" alt="Digital Marketing Landscape image">
             <div class="about-us_dm-landscape_text">
                 <p class="typo-p typo_dark-color"><span class="typo_p-bold">Everybody knows that online marketing is a great way to promote your business.</span></p>
                 <p class="typo-p typo_dark-color">But, with total advertising spend of <span class="typo_p-bold">7.85 Billion dollars</span> on social media <span class="typo_p-bold">$34.42 billion</span> on Google in 2018 alone  it is clear that there is a lot of competition.</p>
