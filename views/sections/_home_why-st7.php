@@ -12,6 +12,10 @@
             </div>
         </div>
         <a class="home_why-st7__button button-solid" href="#">Learn More About Us</a>
+        <div class="home_why-st7_shape-1"></div>
+        <div class="home_why-st7_shape-2"></div>
+        <div class="home_why-st7_shape-3"></div>
+        <div class="home_why-st7_shape-4"></div>
     </div>
 
 </section>

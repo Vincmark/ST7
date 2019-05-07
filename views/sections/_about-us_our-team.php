@@ -59,5 +59,7 @@
             </li>
         </ul>
         <p class="about-us_our-team_final-text">Basically everything you need to get more customer</p>
+        <div class="about-us_our-team_shape-1"></div>
+        <div class="about-us_our-team_shape-2"></div>
     </div>
 </section>

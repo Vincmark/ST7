@@ -33,5 +33,7 @@
                 </div>
             </li>
         </ul>
+        <div class="our-process_why-build-website_shape-1"></div>
+        <div class="our-process_why-build-website_shape-2"></div>
     </div>
 </section>

@@ -49,5 +49,9 @@
             </div>
         </div>
         <a class="home_services__button button-solid" href="#home_request-form_wrapper">Request a Quote</a>
+        <div class="home_services_shape-1"></div>
+        <div class="home_services_shape-2"></div>
+        <div class="home_services_shape-3"></div>
+        <div class="home_services_shape-4"></div>
     </div>
  </section>
