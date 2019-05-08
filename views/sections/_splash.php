@@ -4,7 +4,8 @@
         <h1 class="visually-hidden">Search Team 7 official website</h1>
 
         <div class="splash-content">
-            <p class="splash-content__description">We are <span class="splash-content__description-green">highly experienced digital marketing specialists</span> that can help you get more customers</p>
+            <p class="splash-content__description-upper">We are highly experienced digital marketing specialists</p>
+            <p class="splash-content__description-lower">We will help you get more customers</p>
         </div>
     </div>
 </section>
