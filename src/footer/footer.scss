@@ -179,29 +179,34 @@
 }
 .footer-upper__social-link {
   display: block;
-  width: 42px;
+  width: 44px;
   height: 44px;
-  transition: 0.3s;
+  //transition: 0.3s;
 }
+
 .footer-upper__facebook-icon {
-  background-image: url("../img/facebook.png");
-}
-.footer-upper__behance-icon {
-  background-image: url("../img/behance.png");
+  background: url("../img/social.png") no-repeat;
+  background-position: 0 0px;
 }
 .footer-upper__linkedin-icon {
-  background-image: url("../img/linkedin.png");
+  background: url("../img/social.png") no-repeat;
+  background-position: -44px 0px;
+}
+.footer-upper__behance-icon {
+  background: url("../img/social.png") no-repeat;
+  background-position: -88px 0px;
 }
 
 
 .footer-upper__facebook-icon:hover {
-  background-image: url("../img/facebook-hover.png");
+  background: url("../img/social.png") no-repeat;
+  background-position: 0 -44px;
 }
-
-.footer-upper__behance-icon:hover {
-  background-image: url("../img/behance-hover.png");
-}
-
 .footer-upper__linkedin-icon:hover {
-  background-image: url("../img/linkedin-hover.png");
+  background: url("../img/social.png") no-repeat;
+  background-position: -44px -44px;
+}
+.footer-upper__behance-icon:hover {
+  background: url("../img/social.png") no-repeat;
+  background-position: -88px -44px;
 }
