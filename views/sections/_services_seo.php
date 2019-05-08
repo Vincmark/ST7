@@ -64,5 +64,9 @@
         </div>
                 <a class="button-solid services_button"  href="#services_request-form_wrapper">Set up a Free Consultation</a>
         <p class="button_lower-text typo_dark-color">to see if we can get you organic traffic and convert it to revenue for your business.</p>
+        <div class="services_seo2_shape-1"></div>
+        <div class="services_seo2_shape-2"></div>
+        <div class="services_seo2_shape-3"></div>
+        <div class="services_seo2_shape-4"></div>
     </div>
 </section>

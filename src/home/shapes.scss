@@ -2,7 +2,7 @@
 
 .home_services_wrapper, .home_why-st7_wrapper, .about-us_dm-landscape_wrapper, .about-us_our-team_wrapper,
 .about-us_why-us_wrapper, .our-process_why-build-website_wrapper, .services_description_wrapper,
-.services_conversion_wrapper {
+.services_conversion_wrapper, .services_sem_wrapper, .services_seo2_wrapper, .services_design_wrapper {
   position: relative;
 }
 
@@ -260,6 +260,110 @@
   height: 359px;
   left: 986px;
   top: 71px;
+  background: rgba(178, 235, 80, 0.2);
+  border-radius: 80px;
+  transform: rotate(33.54deg);
+}
+
+.services_sem_shape-1 {
+  position: absolute;
+  width: 222px;
+  height: 222px;
+  left: -273px;
+  top: 158px;
+  background: rgba(178, 235, 80, 0.2);
+  border-radius: 90px;
+  transform: rotate(45.05deg);
+}
+.services_sem_shape-2 {
+  position: absolute;
+  width: 243px;
+  height: 243px;
+  left: -228px;
+  top: 215px;
+  background: rgba(178, 235, 80, 0.3);
+  border-radius: 80px;
+  transform: rotate(-9.04deg);
+}
+.services_sem_shape-3 {
+  position: absolute;
+  width: 279px;
+  height: 279px;
+  left: 1075px;
+  top: 405px;
+  background: rgba(178, 235, 80, 0.3);
+  border-radius: 80px;
+  transform: rotate(17.46deg);
+}
+.services_sem_shape-4 {
+  position: absolute;
+  width: 359px;
+  height: 359px;
+  left: 1081px;
+  top: 500px;
+  background: rgba(178, 235, 80, 0.2);
+  border-radius: 80px;
+  transform: rotate(33.54deg);
+}
+
+.services_seo2_shape-1 {
+  position: absolute;
+  width: 259px;
+  height: 259px;
+  left: -212px;
+  top: 192px;
+  background: rgba(178, 235, 80, 0.2);
+  border-radius: 80px;
+  transform: rotate(45.05deg);
+}
+
+.services_seo2_shape-2 {
+  position: absolute;
+  width: 325px;
+  height: 325px;
+  left: -248px;
+  top: 107px;
+  background: rgba(178, 235, 80, 0.3);
+  border-radius: 80px;
+  transform: rotate(-9.04deg);
+}
+.services_seo2_shape-3 {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 1235px;
+  top: 290px;
+  background: rgba(178, 235, 80, 0.3);
+  border-radius: 50px;
+  transform: rotate(17.46deg);
+}
+.services_seo2_shape-4 {
+  position: absolute;
+  width: 205px;
+  height: 205px;
+  left: 1210px;
+  top: 325px;
+  background: rgba(178, 235, 80, 0.2);
+  border-radius: 50px;
+  transform: rotate(33.54deg);
+}
+
+.services_design_shape-1 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: -164px;
+  top: 182px;
+  background: rgba(178, 235, 80, 0.3);
+  border-radius: 60px;
+  transform: rotate(17.46deg);
+}
+.services_design_shape-2 {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: -181px;
+  top: 81px;
   background: rgba(178, 235, 80, 0.2);
   border-radius: 80px;
   transform: rotate(33.54deg);
