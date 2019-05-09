@@ -33,9 +33,9 @@
 
         <a class="button-solid services_button"  href="#services_request-form_wrapper">Schedule a Free Consultation</a>
         <p class="button_lower-text typo_dark-color">to see how we can increase your conversion</p>
-        <div class="services_conversion_shape-1"></div>
-        <div class="services_conversion_shape-2"></div>
-        <div class="services_conversion_shape-3"></div>
-        <div class="services_conversion_shape-4"></div>
     </div>
+    <div class="services_conversion_shape-1"></div>
+    <div class="services_conversion_shape-2"></div>
+    <div class="services_conversion_shape-3"></div>
+    <div class="services_conversion_shape-4"></div>
 </section>

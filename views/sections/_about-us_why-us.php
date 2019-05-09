@@ -34,9 +34,9 @@
             </li>
         </ul>
         <p class="about-us_why-us_last-word">So set up your Free marketing consultation today and let’s see if there is a fit.</p>
-        <div class="about-us_why-us_shape-1"></div>
-        <div class="about-us_why-us_shape-2"></div>
-        <div class="about-us_why-us_shape-3"></div>
-        <div class="about-us_why-us_shape-4"></div>
     </div>
+    <div class="about-us_why-us_shape-1"></div>
+    <div class="about-us_why-us_shape-2"></div>
+    <div class="about-us_why-us_shape-3"></div>
+    <div class="about-us_why-us_shape-4"></div>
 </section>

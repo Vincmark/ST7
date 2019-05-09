@@ -1,16 +1,17 @@
 
 
-.home_services_wrapper, .home_why-st7_wrapper, .about-us_dm-landscape_wrapper, .about-us_our-team_wrapper,
-.about-us_why-us_wrapper, .our-process_why-build-website_wrapper, .services_description_wrapper,
-.services_conversion_wrapper, .services_sem_wrapper, .services_seo2_wrapper, .services_design_wrapper {
+.home_services, .home_why-st7, .about-us_dm-landscape, .about-us_our-team,
+.about-us_why-us, .our-process_why-build-website, .services_description,
+.services_conversion, .services_sem, .services_seo2, .services_design {
   position: relative;
+  overflow-x: hidden;
 }
 
 .home_services_shape-1 {
   position: absolute;
-  width: 154.62px;
-  height: 154.62px;
-  left: -210.74px;
+  width: 154px;
+  height: 154px;
+  left: calc(50% - 525px - 210px);
   top: 150px;
   background: rgba(178, 235, 80, 0.3);
   border-radius: 80px;
@@ -21,17 +22,18 @@
   position: absolute;
   width: 199px;
   height: 199px;
-  left: -225px;
+  left: calc(50% - 525px - 225px);
   top: 122px;
   background: rgba(178, 235, 80, 0.2);
   border-radius: 80px;
   transform: rotate(33.54deg);
 }
+
 .home_services_shape-3 {
   position: absolute;
   width: 359px;
   height: 359px;
-  left: 1075px;
+  left: calc(50% + 525px + 25px);
   top: 300px;
   background: rgba(178, 235, 80, 0.2);
   border-radius: 80px;
@@ -41,7 +43,7 @@
   position: absolute;
   width: 279px;
   height: 279px;
-  left: 1080px;
+  left: calc(50% + 525px + 30px);
   top: 405px;
   background: rgba(178, 235, 80, 0.3);
   border-radius: 80px;
@@ -52,7 +54,7 @@
   position: absolute;
   width: 260px;
   height: 260px;
-  left: -250px;
+  left: calc(50% - 525px - 250px);
   top: 194px;
   background: rgba(178, 235, 80, 0.2);
   border-radius: 80px;
@@ -63,7 +65,7 @@
   position: absolute;
   width: 325px;
   height: 325px;
-  left: -280px;
+  left: calc(50% - 525px - 280px);
   top: 110px;
   background: rgba(178, 235, 80, 0.3);
   border-radius: 80px;
@@ -74,7 +76,7 @@
   position: absolute;
   width: 180px;
   height: 180px;
-  left: 1180px;
+  left: calc(50% + 525px + 130px);
   top: 300px;
   background: rgba(178, 235, 80, 0.3);
   border-radius: 50px;
@@ -85,7 +87,7 @@
   position: absolute;
   width: 205px;
   height: 205px;
-  left: 1160px;
+  left: calc(50% + 525px + 110px);
   top: 335px;
   background: rgba(178, 235, 80, 0.2);
   border-radius: 50px;
@@ -96,8 +98,8 @@
   position: absolute;
   width: 200px;
   height: 200px;
-  left: -180px;
-  top: 212px;
+  left: calc(50% - 525px - 200px);
+  top: 345px;
   background: rgba(178, 235, 80, 0.3);
   border-radius: 60px;
   transform: rotate(17.46deg);
@@ -106,8 +108,8 @@
   position: absolute;
   width: 250px;
   height: 250px;
-  left: -192px;
-  top: 120px;
+  left: calc(50% - 525px - 222px);
+  top: 243px;
   background: rgba(178, 235, 80, 0.2);
   border-radius: 80px;
   transform: rotate(33.54deg);
@@ -117,7 +119,7 @@
   position: absolute;
   width: 154px;
   height: 154px;
-  left: -203px;
+  left: calc(50% - 525px - 210px);
   top: 570px;
   background: rgba(178, 235, 80, 0.3);
   border-radius: 80px;
@@ -128,7 +130,7 @@
   position: absolute;
   width: 198px;
   height: 198px;
-  left: -210px;
+  left: calc(50% - 525px - 217px);
   top: 540px;
   background: rgba(178, 235, 80, 0.2);
   border-radius: 80px;
@@ -139,7 +141,7 @@
   position: absolute;
   width: 222px;
   height: 222px;
-  left: -318px;
+  left: calc(50% - 525px - 338px);
   top: 445px;
   background: rgba(178, 235, 80, 0.2);
   border-radius: 90px;
@@ -150,7 +152,7 @@
   position: absolute;
   width: 243px;
   height: 243px;
-  left: -270px;
+  left: calc(50% - 525px - 290px);
   top: 530px;
   background: rgba(178, 235, 80, 0.3);
   border-radius: 80px;
@@ -161,8 +163,8 @@
   position: absolute;
   width: 279px;
   height: 279px;
-  left: 1073px;
-  top: 80px;
+  left: calc(50% + 525px - 7px);
+  top: 100px;
   background: rgba(178, 235, 80, 0.3);
   border-radius: 80px;
   transform: rotate(17.46deg);
@@ -172,8 +174,8 @@
   position: absolute;
   width: 359px;
   height: 359px;
-  left: 1077px;
-  top: 170px;
+  left: calc(50% + 525px - 3px);
+  top: 190px;
   background: rgba(178, 235, 80, 0.2);
   border-radius: 80px;
   transform: rotate(33.54deg);
@@ -183,8 +185,8 @@
   position: absolute;
   width: 172px;
   height: 172px;
-  left: -230px;
-  top: 140px;
+  left: calc(50% - 525px - 260px);
+  top: 263px;
   background: rgba(178, 235, 80, 0.3);
   border-radius: 60px;
   transform: rotate(17.46deg);
@@ -194,8 +196,8 @@
   position: absolute;
   width: 249px;
   height: 249px;
-  left: -247px;
-  top: 114px;
+  left: calc(50% - 525px - 277px);
+  top: 237px;
   background: rgba(178, 235, 80, 0.2);
   border-radius: 80px;
   transform: rotate(33.54deg);
@@ -205,8 +207,8 @@
   position: absolute;
   width: 137px;
   height: 137px;
-  left: -176px;
-  top: 95px;
+  left: calc(50% - 525px - 201px);
+  top: 218px;
   background: rgba(178, 235, 80, 0.3);
   border-radius: 40px;
   transform: rotate(17.46deg);
@@ -216,8 +218,8 @@
   position: absolute;
   width: 219px;
   height: 219px;
-  left: -193px;
-  top: 80px;
+  left: calc(50% - 525px - 218px);
+  top: 203px;
   background: rgba(178, 235, 80, 0.2);
   border-radius: 50px;
   transform: rotate(33.54deg);
@@ -227,7 +229,7 @@
   position: absolute;
   width: 154px;
   height: 154px;
-  left: -136px;
+  left: calc(50% - 525px - 245px);
   top: 310px;
   background: rgba(178, 235, 80, 0.3);
   border-radius: 80px;
@@ -238,7 +240,7 @@
   position: absolute;
   width: 198px;
   height: 198px;
-  left: -144px;
+  left: calc(50% - 525px - 253px);
   top: 280px;
   background: rgba(178, 235, 80, 0.2);
   border-radius: 80px;
@@ -248,7 +250,7 @@
   position: absolute;
   width: 279px;
   height: 279px;
-  left: 997px;
+  left: calc(50% + 525px + 5px);
   top: 175px;
   background: rgba(178, 235, 80, 0.3);
   border-radius: 80px;
@@ -258,7 +260,7 @@
   position: absolute;
   width: 359px;
   height: 359px;
-  left: 986px;
+  left: calc(50% + 525px - 6px);
   top: 71px;
   background: rgba(178, 235, 80, 0.2);
   border-radius: 80px;
@@ -269,7 +271,7 @@
   position: absolute;
   width: 222px;
   height: 222px;
-  left: -273px;
+  left: calc(50% - 525px - 293px);
   top: 158px;
   background: rgba(178, 235, 80, 0.2);
   border-radius: 90px;
@@ -279,7 +281,7 @@
   position: absolute;
   width: 243px;
   height: 243px;
-  left: -228px;
+  left: calc(50% - 525px - 248px);
   top: 215px;
   background: rgba(178, 235, 80, 0.3);
   border-radius: 80px;
@@ -289,7 +291,7 @@
   position: absolute;
   width: 279px;
   height: 279px;
-  left: 1075px;
+  left: calc(50% + 525px + 5px);
   top: 405px;
   background: rgba(178, 235, 80, 0.3);
   border-radius: 80px;
@@ -299,7 +301,7 @@
   position: absolute;
   width: 359px;
   height: 359px;
-  left: 1081px;
+  left: calc(50% + 525px + 11px);
   top: 500px;
   background: rgba(178, 235, 80, 0.2);
   border-radius: 80px;
@@ -310,7 +312,7 @@
   position: absolute;
   width: 259px;
   height: 259px;
-  left: -212px;
+  left: calc(50% - 525px - 237px);
   top: 192px;
   background: rgba(178, 235, 80, 0.2);
   border-radius: 80px;
@@ -321,7 +323,7 @@
   position: absolute;
   width: 325px;
   height: 325px;
-  left: -248px;
+  left: calc(50% - 525px - 273px);
   top: 107px;
   background: rgba(178, 235, 80, 0.3);
   border-radius: 80px;
@@ -331,7 +333,7 @@
   position: absolute;
   width: 180px;
   height: 180px;
-  left: 1235px;
+  left: calc(50% + 525px + 185px);
   top: 290px;
   background: rgba(178, 235, 80, 0.3);
   border-radius: 50px;
@@ -341,7 +343,7 @@
   position: absolute;
   width: 205px;
   height: 205px;
-  left: 1210px;
+  left: calc(50% + 525px + 160px);
   top: 325px;
   background: rgba(178, 235, 80, 0.2);
   border-radius: 50px;
@@ -352,7 +354,7 @@
   position: absolute;
   width: 200px;
   height: 200px;
-  left: -164px;
+  left: calc(50% - 525px - 198px);
   top: 182px;
   background: rgba(178, 235, 80, 0.3);
   border-radius: 60px;
@@ -362,7 +364,7 @@
   position: absolute;
   width: 250px;
   height: 250px;
-  left: -181px;
+  left: calc(50% - 525px - 215px);
   top: 81px;
   background: rgba(178, 235, 80, 0.2);
   border-radius: 80px;

@@ -14,7 +14,7 @@
         <p class="button_upper-text typo_orange-color">If you need branding or logo design we can help.</p>
         <a class="button-solid services_button" href="#services_request-form_wrapper">Set up a Free Consultation</a>
 <!--        <p class="button_lower-text typo_dark-color">to find out how</p>-->
-        <div class="services_design_shape-1"></div>
-        <div class="services_design_shape-2"></div>
     </div>
+    <div class="services_design_shape-1"></div>
+    <div class="services_design_shape-2"></div>
 </section>

@@ -18,7 +18,7 @@
                 <p class="typo-p typo_dark-color typo_p-bold">This is where we come in….</p>
             </div>
         </div>
-        <div class="about-us_dm-landscape_shape-1"></div>
-        <div class="about-us_dm-landscape_shape-2"></div>
     </div>
+    <div class="about-us_dm-landscape_shape-1"></div>
+    <div class="about-us_dm-landscape_shape-2"></div>
 </section>
