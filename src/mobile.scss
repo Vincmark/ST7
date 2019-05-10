@@ -1,0 +1,24 @@
+@media screen and (max-width: 600px) {
+  .splash-content__description-lower {
+    font-size: 50px!important;
+    line-height: normal!important;
+  }
+  div.services_seo1_list_col {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .splash-content__description-lower {
+    font-size: 36px!important;
+  }
+  .splash-content__description-upper {
+    font-size: 16px!important;
+  }
+  div.services_seo1_list_col {
+    padding: 0 10px;
+  }
+  p.services_seo1_item_key {
+    font-size: 60px;
+  }
+}
